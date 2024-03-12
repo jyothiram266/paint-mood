@@ -60,7 +60,7 @@ export default function Home() {
         className="resize-none outline-none block w-full text-sm placeholder-slate-600 bg-transparent" >
         </textarea>
       </div>
-      <p> >> {input}</p>
+      <p> -- {input}</p>
       {loading ? <Spinner/> : <div className="flex flex-warap items-center justify-center gap-2">{Output?.map(({label,score})=>{
         return( <span key = {label} className="cursor-pointer bg-indigo-100 text-indigo-800 text-lg px-4 py-1 rounded-full border-indigo-400">{label}{(emotionConfig as any)[label].emoji}</span>)
       })}
