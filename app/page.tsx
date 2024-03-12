@@ -55,7 +55,7 @@ export default function Home() {
     <main style={{background : color + "aa"}} className="transition-all delay-300 gap-4 flex min-h-screen flex-col items-center p-24">
       <h1 className="lg:text-4xl font-mono font-semibold text-2xl tracking-tight ">🎨Paint My Mood</h1>
      <div className="border-2 p-4 rounded border-black">
-        <textarea rows={Rows} cols="75" onChange={Handleinputchange} 
+        <textarea rows={Rows} onChange={Handleinputchange} 
         placeholder="Type how you feel.."
         className="resize-none outline-none block w-full text-sm placeholder-slate-600 bg-transparent" >
         </textarea>
